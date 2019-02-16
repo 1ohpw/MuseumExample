@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#231F20"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#EAEAEA"
+        android:textSize="22sp"
+        android:text="Welcome to the Ancient Egyptian Museum"
+        android:layout_marginTop="16dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/sphinx"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#EAEAEA"
+        android:text="Explore"
+        android:layout_marginBottom="16dp"
+        android:onClick="goToExhibits"/>
+</LinearLayout>
